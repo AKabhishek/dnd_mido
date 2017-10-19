@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    Camera2 \
     camera.msm8953 \
     libmm-qcamera \
     camera.device@1.0-impl \
