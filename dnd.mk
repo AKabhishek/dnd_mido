@@ -19,6 +19,9 @@ $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 # Inherit some common DarkNess-reDefined stuff.
 $(call inherit-product, vendor/dnd/config/common_full_phone.mk)
 
+# Darkness reDefined build type.
+DND_BUILD_TYPE=beta
+
 PRODUCT_NAME := dnd_mido
 BOARD_VENDOR := Xiaomi
 
